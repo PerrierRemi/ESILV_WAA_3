@@ -37,27 +37,28 @@ module.exports.scrapeRestaurant = async url => {
  * @return {Array} restaurants
  */
 module.exports.get = async () => {
-  var restaurants = [];
-  const url = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand";
+  var restaurants = []
+  const root = 'https://guide.michelin.com/fr/fr/restaurants/bib-gourmand'
 
-  try {
-    console.log("Fetch data");
-    const response = await axios(url);
-    const { data, status } = response;
-    console.log("Data fetched")
+  for (let index = 1; index < 20; index++) {
 
-    console.log("Load data");
-    const $ = cheerio.load(data);
+    console.log('Process page ' + index.toString())
 
-    $("div[class='col-md-6 col-lg-6 col-xl-3']").each(function (i, e) {
-      console.log($(this).find('a').attr('href'))
-    });
+    try {
+      const url = root.concat('/page/', index.toString())
+      const response = await axios(url);
+      const { data, status } = response;
+      const $ = cheerio.load(data);
 
-    console.log("It's okay");
+      const links = $("a[class='link']")
 
-  } catch (e) {
-    console.log(e)
-    process.exit(1)
+      if (links.length == 0) break
+      else links.each(function () { restaurants.push($(this).attr('href')) })
+
+    } catch (e) {
+      console.log(e)
+      process.exit(1)
+    }
   }
-  return [];
+  return restaurants
 };

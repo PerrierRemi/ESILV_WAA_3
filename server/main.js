@@ -1,3 +1,3 @@
 const michelin = require('./michelin');
 
-michelin.get()
+michelin.get().then(console.log)
