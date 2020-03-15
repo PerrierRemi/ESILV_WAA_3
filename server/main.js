@@ -1,3 +1,10 @@
-const michelin = require('./michelin');
+const michelin = require("./michelin");
 
-michelin.get().then(console.log)
+const main = async () => {
+  const urls = await michelin.get();
+  const restaurants = await urls.forEach(element =>
+    michelin.scrapeRestaurant(element)
+  );
+};
+
+main();

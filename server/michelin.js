@@ -1,5 +1,6 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
+const axios = require("axios");
+const cheerio = require("cheerio");
+const ROOT = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/";
 
 /**
  * Parse webpage restaurant
@@ -8,10 +9,14 @@ const cheerio = require('cheerio');
  */
 const parse = data => {
   const $ = cheerio.load(data);
-  const name = $('.section-main h2.restaurant-details__heading--title').text();
-  const experience = $('#experience-section > ul > li:nth-child(2)').text();
 
-  return { name, experience };
+  const name = $(".section-main h2.restaurant-details__heading--title").text();
+
+  const restaurant = {
+    name: name
+  };
+  console.log(restaurant);
+  return restaurant;
 };
 
 /**
@@ -20,16 +25,12 @@ const parse = data => {
  * @return {Object} restaurant
  */
 module.exports.scrapeRestaurant = async url => {
-  const response = await axios(url);
-  const { data, status } = response;
-
-  if (status >= 200 && status < 300) {
+  try {
+    const response = await axios(url);
+    const { data, status } = response;
+    console.log(url);
     return parse(data);
-  }
-
-  console.error(status);
-
-  return null;
+  } catch {}
 };
 
 /**
@@ -37,28 +38,30 @@ module.exports.scrapeRestaurant = async url => {
  * @return {Array} restaurants
  */
 module.exports.get = async () => {
-  var restaurants = []
-  const root = 'https://guide.michelin.com/fr/fr/restaurants/bib-gourmand'
+  var restaurants = [];
 
   for (let index = 1; index < 20; index++) {
-
-    console.log('Process page ' + index.toString())
+    console.log("Process page " + index.toString());
 
     try {
-      const url = root.concat('/page/', index.toString())
+      const url = ROOT + "/page/" + index;
       const response = await axios(url);
       const { data, status } = response;
       const $ = cheerio.load(data);
 
-      const links = $("a[class='link']")
+      const links = $("a[class='link']");
 
-      if (links.length == 0) break
-      else links.each(function () { restaurants.push($(this).attr('href')) })
-
+      if (links.length == 0) break;
+      else
+        links.each(function() {
+          restaurants.push(
+            "https://guide.michelin.com/" + $(this).attr("href")
+          );
+        });
     } catch (e) {
-      console.log(e)
-      process.exit(1)
+      console.log(e);
+      process.exit(1);
     }
   }
-  return restaurants
+  return restaurants;
 };
