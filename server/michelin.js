@@ -1,6 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const ROOT = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/";
+const ROOT = "https://guide.michelin.com";
+const SEARCH = "/fr/fr/restaurants/bib-gourmand/page/";
 
 /**
  * Parse webpage restaurant
@@ -15,7 +16,6 @@ const parse = data => {
   const restaurant = {
     name: name
   };
-  console.log(restaurant);
   return restaurant;
 };
 
@@ -24,11 +24,10 @@ const parse = data => {
  * @param  {String}  url
  * @return {Object} restaurant
  */
-module.exports.scrapeRestaurant = async url => {
+const scrapeRestaurant = async url => {
   try {
     const response = await axios(url);
     const { data, status } = response;
-    console.log(url);
     return parse(data);
   } catch {}
 };
@@ -38,13 +37,12 @@ module.exports.scrapeRestaurant = async url => {
  * @return {Array} restaurants
  */
 module.exports.get = async () => {
-  var restaurants = [];
-
-  for (let index = 1; index < 20; index++) {
-    console.log("Process page " + index.toString());
-
+  var urls = [];
+  index = 1;
+  while (true) {
+    console.log("Michelin: get search page " + index.toString());
     try {
-      const url = ROOT + "/page/" + index;
+      const url = ROOT + SEARCH + index;
       const response = await axios(url);
       const { data, status } = response;
       const $ = cheerio.load(data);
@@ -54,14 +52,19 @@ module.exports.get = async () => {
       if (links.length == 0) break;
       else
         links.each(function() {
-          restaurants.push(
-            "https://guide.michelin.com/" + $(this).attr("href")
-          );
+          urls.push($(this).attr("href"));
         });
+      index++;
     } catch (e) {
       console.log(e);
       process.exit(1);
     }
   }
-  return restaurants;
+  // From the urls scrap the restaurants pages
+  Promise.all(
+    urls.map(async url => {
+      scrapeRestaurant(url);
+    })
+  );
+  return urls;
 };
