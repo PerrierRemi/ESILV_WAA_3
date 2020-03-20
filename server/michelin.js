@@ -85,23 +85,23 @@ const scrapeRestaurant = async url => {
 const parse = data => {
   const $ = cheerio.load(data);
 
-  var name = $(".section-main h2.restaurant-details__heading--title").text();
-  const experience = $("#experience-section > ul > li:nth-child(2)")
-    .text()
-    .split("\n")[2]
-    .trim();
-  const scrapedAdress = $(
-    ".restaurant-details__heading > ul > li:nth-child(1)"
+  const name = $(
+    "div.restaurant-details div.container div.row div.col-xl-4 div.restaurant-details__heading.d-lg-none h2.restaurant-details__heading--title"
   ).text();
-  const street = scrapedAdress.split(",")[0];
-  const city = scrapedAdress.split(",")[1];
-  const code = scrapedAdress.split(",")[2].trim();
-  const telephone = $(".section-main span.flex-fill")
+  const address = $(
+    "div.restaurant-details__heading ul.restaurant-details__heading--list"
+  )
+    .text()
+    .trim()
+    .split("\n")[0];
+  const tel = $(".section-main div.row div.d-flex span.flex-fill")
     .text()
     .substring(0, 17);
-  const website = $(".section-main a").attr("href");
+  const position = $(".section-main div.row div.google-map__static")
+    ["0"].children[1].attribs.src.split("=")[2]
+    .split(",");
 
-  return { name, experience, street, city, code, telephone, website };
+  return { name: name, address: address, tel: tel, position: position };
 };
 
 /**

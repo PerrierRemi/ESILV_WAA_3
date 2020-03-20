@@ -12,11 +12,20 @@ const SEARCH = "https://www.maitresrestaurateurs.fr/profil/";
 const get = async () => {
   restaurants = [];
   index = 1;
-  while (index < 10) {
+  empty_pages_in_a_row = 0;
+  while (true) {
+    console.log("Restaurant: " + index);
     const restaurant = await scrapeRestaurant(SEARCH + index);
-    if (restaurant != null) restaurants.push(restaurant);
+
+    if (restaurant != null) {
+      restaurants.push(restaurant);
+      empty_pages_in_a_row = 0;
+    } else empty_pages_in_a_row++;
+
+    if (empty_pages_in_a_row > 3) break;
     index++;
   }
+  return restaurants;
 };
 
 /**
@@ -30,6 +39,7 @@ const scrapeRestaurant = async url => {
     const { data, status } = response;
     return parse(data);
   } catch (e) {
+    return undefined;
     console.log(e);
   }
 };
@@ -54,9 +64,9 @@ const parse = data => {
     const telephone = coordinates[28].trim();
     const website = coordinates[31].trim();
 
-    console.log({ name, street, city, code, telephone, website });
     return { name, street, city, code, telephone, website };
   } catch (e) {
+    console.log(e);
     return null;
   }
 };
