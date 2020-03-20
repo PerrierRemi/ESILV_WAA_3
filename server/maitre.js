@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const querystring = require("querystring");
 
-const SEARCH = "https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult";
+const SEARCH = "https://www.maitresrestaurateurs.fr/profil/";
 
 /**
  * Get all France located Maitre Restaurateur restaurants
@@ -12,8 +12,8 @@ const SEARCH = "https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult";
 const get = async () => {
   restaurants = [];
   index = 1;
-  while (true) {
-    const restaurant = await scrapeRestaurant(index);
+  while (index < 10) {
+    const restaurant = await scrapeRestaurant(SEARCH + index);
     if (restaurant != null) restaurants.push(restaurant);
     index++;
   }
@@ -24,16 +24,9 @@ const get = async () => {
  * @param  {int}  index
  * @return {Object} restaurant
  */
-const scrapeRestaurant = async index => {
+const scrapeRestaurant = async url => {
   try {
-    const response = await axios({
-      url: SEARCH,
-      method: "POST",
-      data: querystring.stringify({
-        page: index,
-        request_id: "c2017c5c4acb3217c38c57d3f4584467"
-      })
-    });
+    const response = await axios(url);
     const { data, status } = response;
     return parse(data);
   } catch (e) {
@@ -61,6 +54,7 @@ const parse = data => {
     const telephone = coordinates[28].trim();
     const website = coordinates[31].trim();
 
+    console.log({ name, street, city, code, telephone, website });
     return { name, street, city, code, telephone, website };
   } catch (e) {
     return null;
