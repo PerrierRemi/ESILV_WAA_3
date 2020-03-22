@@ -74,10 +74,10 @@ const parse = data => {
 /**
  * Write restaurants list json file
  */
-const toFile = async () => {
+const toFile = async dir => {
   const restaurants = await get();
   const json = JSON.stringify(restaurants);
-  fs.writeFile("./json/maitre.json", json, err => {
+  fs.writeFile(dir + "/maitre.json", json, err => {
     if (err) {
       console.log("Maitre: Error writing file", err);
     } else {
