@@ -1,4 +1,5 @@
 const fs = require("fs");
+var stringSimilarity = require("string-similarity");
 
 const DIR = "./my-app/src/data/";
 const maitrebib = async () => {
@@ -31,7 +32,7 @@ const equals = (michelin, maitre) => {
   try {
     michelin = michelin.name.toLowerCase();
     maitre = maitre.name.toLowerCase();
-    return michelin == maitre;
+    return stringSimilarity.compareTwoStrings(michelin, maitre) > 0.9;
   } catch (error) {
     console.log(error);
   }

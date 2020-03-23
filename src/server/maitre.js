@@ -39,8 +39,8 @@ const scrapeRestaurant = async url => {
     const { data, status } = response;
     return parse(data);
   } catch (e) {
-    return undefined;
     console.log(e);
+    return undefined;
   }
 };
 

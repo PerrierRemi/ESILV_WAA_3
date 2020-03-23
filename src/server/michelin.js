@@ -25,7 +25,7 @@ const get = async () => {
 const getUrls = async () => {
   var urls = [];
   index = 1;
-  while (true && index < 2) {
+  while (true) {
     try {
       const url = ROOT + SEARCH + index;
       const response = await axios(url);
