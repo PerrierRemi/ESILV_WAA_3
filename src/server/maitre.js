@@ -1,8 +1,9 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const querystring = require("querystring");
+const bib = require("./bib");
 
+const DIR = bib.DIR;
 const SEARCH = "https://www.maitresrestaurateurs.fr/profil/";
 
 /**
@@ -11,21 +12,34 @@ const SEARCH = "https://www.maitresrestaurateurs.fr/profil/";
  */
 const get = async () => {
   restaurants = [];
+  // Index of the restaurant profil
   index = 1;
+  // Number of non-existant in a row, used to detect end
   empty_pages_in_a_row = 0;
   while (true) {
     console.log("Restaurant: " + index);
     const restaurant = await scrapeRestaurant(SEARCH + index);
-
+    // Some profil are non-existant (deleted)
     if (restaurant != null) {
       restaurants.push(restaurant);
       empty_pages_in_a_row = 0;
     } else empty_pages_in_a_row++;
 
+    // If we encounter three non-existant profiles in a row we consider it's the end
     if (empty_pages_in_a_row > 3) break;
     index++;
   }
-  return restaurants;
+
+  // Some restaurant have multiples profiles, we conserve the most recent
+  clean_restaurants = [];
+  for (var restaurant of restaurants.reverse()) {
+    is_unique = true;
+    for (var clean_restaurant of clean_restaurants) {
+      if (restaurant.name == clean_restaurant.name) is_unique = false;
+    }
+    if (is_unique) clean_restaurants.push(restaurant);
+  }
+  return clean_restaurants;
 };
 
 /**
@@ -60,12 +74,13 @@ const parse = data => {
     const name = coordinates[2].trim();
     const street = coordinates[11].trim();
     const city = coordinates[15].trim();
-    const code = coordinates[14].trim();
+    const department = coordinates[14].trim();
     const telephone = coordinates[28].trim();
     const website = coordinates[31].trim();
 
-    return { name, street, city, code, telephone, website };
+    return { name, address: { street, city, department }, telephone, website };
   } catch (e) {
+    // coordiantes is undefined -> empty profil, return null
     console.log(e);
     return null;
   }
@@ -74,10 +89,12 @@ const parse = data => {
 /**
  * Write restaurants list json file
  */
-const toFile = async dir => {
+const toFile = async () => {
+  // Get data
   const restaurants = await get();
   const json = JSON.stringify(restaurants);
-  fs.writeFile(dir + "/maitre.json", json, err => {
+  // Write data
+  fs.writeFile(DIR + "/maitre.json", json, err => {
     if (err) {
       console.log("Maitre: Error writing file", err);
     } else {

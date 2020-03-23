@@ -1,7 +1,9 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
+const bib = require("./bib");
 
+const DIR = bib.DIR;
 const ROOT = "https://guide.michelin.com";
 const SEARCH = "/fr/fr/restaurants/bib-gourmand/page/";
 
@@ -10,11 +12,13 @@ const SEARCH = "/fr/fr/restaurants/bib-gourmand/page/";
  * @return {Array} restaurants
  */
 const get = async () => {
+  // Get restaurants pages urls from search result pages
   console.log("Michelin: Get urls");
   const urls = await getUrls();
+  // Get data from the restaurants pages
   console.log("Michelin: Get data");
   const restaurants = await scrapeAll(urls);
-  console.log("Michelin: All good");
+
   return restaurants;
 };
 
@@ -24,17 +28,22 @@ const get = async () => {
  */
 const getUrls = async () => {
   var urls = [];
+  // Index of the search result page
   index = 1;
   while (true) {
     try {
+      // Get HTML and load it in a object
       const url = ROOT + SEARCH + index;
       const response = await axios(url);
       const { data, status } = response;
       const $ = cheerio.load(data);
 
+      // All restaurant links in the page are identified by their class 'link'
       const links = $("a[class='link']");
 
+      // If there are no links in this pages, we are not anymore in search results pages, the scrapping is over
       if (links.length == 0) break;
+      // Else we store all links presents on this page
       else
         links.each(function() {
           urls.push($(this).attr("href"));
@@ -54,6 +63,7 @@ const getUrls = async () => {
  */
 const scrapeAll = async urls => {
   restaurants = [];
+  // For each urls, scrap the associated restaurant page
   for (let url of urls) {
     restaurant = await scrapeRestaurant(ROOT + url);
     restaurants.push(restaurant);
@@ -85,7 +95,7 @@ const parse = data => {
   const $ = cheerio.load(data);
 
   const name = $(
-    "div.restaurant-details__heading.d-lg-none h2.restaurant-details__heading--title"
+    "div.restaurant-details__heading.d-lg-none > h2.restaurant-details__heading--title"
   ).text();
 
   const raw_address = $("ul.restaurant-details__heading--list")
@@ -120,10 +130,12 @@ const parse = data => {
 /**
  * Write restaurants list json file
  */
-const toFile = async dir => {
+const toFile = async () => {
+  // Get data
   const restaurants = await get();
   const json = JSON.stringify(restaurants);
-  fs.writeFile(dir + "/michelin.json", json, err => {
+  // Write data
+  fs.writeFile(DIR + "/michelin.json", json, err => {
     if (err) {
       console.log("Michelin: Error writing file", err);
     } else {
@@ -131,4 +143,6 @@ const toFile = async dir => {
     }
   });
 };
+
+// Export
 module.exports.toFile = toFile;
