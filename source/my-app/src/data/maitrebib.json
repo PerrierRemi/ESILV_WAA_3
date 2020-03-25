@@ -1,0 +1,1147 @@
+[
+  {
+    "name": "Les 3 Faisans",
+    "address": {
+      "street": "330 rue des Auberges",
+      "city": "Saint-Savin",
+      "department": "38300",
+      "country": "France"
+    },
+    "location": ["45.6277400", "5.3072200"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/29490_pro_1.jpg",
+    "telephone": "04 74 28 92 57",
+    "website": "www.les3faisans.fr"
+  },
+  {
+    "name": "La Table du Sommelier",
+    "address": {
+      "street": "20 rue Porta",
+      "city": "Albi",
+      "department": "81000",
+      "country": "France"
+    },
+    "location": ["43.9347151", "2.1458041"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/145_pro_2.jpg",
+    "telephone": "05 63 46 20 10",
+    "website": "www.latabledusommelier.com"
+  },
+  {
+    "name": "Les Jardins du Léman",
+    "address": {
+      "street": "Grande-Rue",
+      "city": "Yvoire",
+      "department": "74140",
+      "country": "France"
+    },
+    "location": ["46.3703254", "6.3256417"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/43416_pro_3.jpg",
+    "telephone": "04 50 72 80 32",
+    "website": "www.lesjardinsduleman.com"
+  },
+  {
+    "name": "Le Petit Paris",
+    "address": {
+      "street": "au bourg",
+      "city": "Daglan",
+      "department": "24250",
+      "country": "France"
+    },
+    "location": ["44.7421500", "1.1918880"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/22860_pro_2.jpg",
+    "telephone": "05 53 28 41 10",
+    "website": "www.le-petit-paris.fr"
+  },
+  {
+    "name": "Les Canailles Ménilmontant",
+    "address": {
+      "street": "15 rue des Panoyaux",
+      "city": "Paris",
+      "department": "75020",
+      "country": "France"
+    },
+    "location": ["48.8665092", "2.3852545"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/540782_pro_1.jpg",
+    "telephone": "01 43 58 45 45",
+    "website": "www.restaurantlescanailles.fr"
+  },
+  {
+    "name": "Au Cheval Blanc",
+    "address": {
+      "street": "11 rue Principale",
+      "city": "Niedersteinbach",
+      "department": "67510",
+      "country": "France"
+    },
+    "location": ["49.0316104", "7.7106808"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12113_pro_3.jpg",
+    "telephone": "03 88 09 55 31",
+    "website": "www.hotel-cheval-blanc.fr"
+  },
+  {
+    "name": "Manoir Hastings",
+    "address": {
+      "street": "18 avenue de la Côte-de-Nacre",
+      "city": "Bénouville",
+      "department": "14970",
+      "country": "France"
+    },
+    "location": ["49.2471948", "-0.2762324"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/455900_ZMR_001.jpg",
+    "telephone": "02 31 44 62 43",
+    "website": "www.ma,oirhastings.fr"
+  },
+  {
+    "name": "Le Manoir du Sphinx",
+    "address": {
+      "street": "67 chemin de la Messe",
+      "city": "Perros-Guirec",
+      "department": "22700",
+      "country": "France"
+    },
+    "location": ["48.8197582", "-3.4361377"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12376_plat1_1.jpg",
+    "telephone": "02 96 23 25 42",
+    "website": "www.lemanoirdusphinx.com"
+  },
+  {
+    "name": "Les Loges du Jardin d'Aymeric",
+    "address": {
+      "street": "7 rue du Canigou",
+      "city": "Clara",
+      "department": "66500",
+      "country": "France"
+    },
+    "location": ["42.5843613", "2.4422211"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/122971_pro_9.jpg",
+    "telephone": "04 68 96 08 72",
+    "website": "www.logesaymeric.com"
+  },
+  {
+    "name": "Auberge de la Rivière",
+    "address": {
+      "street": "rue du Port-de-la-Fouarne",
+      "city": "Velluire",
+      "department": "85770",
+      "country": "France"
+    },
+    "location": ["46.4064515", "-0.8931020"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3242_003.jpg",
+    "telephone": "02 51 52 32 15",
+    "website": "www.hotel-riviere-vendee.com"
+  },
+
+  {
+    "name": "Le Vanteaux",
+    "address": {
+      "street": "162 boulevard de Vanteaux",
+      "city": "Limoges",
+      "department": "87000",
+      "country": "France"
+    },
+    "location": ["45.8213020", "1.2301273"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/52060_ZMR_001.jpg",
+    "telephone": "05 55 49 01 26",
+    "website": "www.levanteaux.com"
+  },
+  {
+    "name": "Auberge St-Fiacre",
+    "address": {
+      "street": "5 rue de la Fontaine",
+      "city": "Veuil",
+      "department": "36600",
+      "country": "France"
+    },
+    "location": ["47.1208897", "1.5255687"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9260_004.jpg",
+    "telephone": "02 54 40 32 78",
+    "website": ""
+  },
+  {
+    "name": "La Table d'Yves",
+    "address": {
+      "street": "1357 route de Fréjus",
+      "city": "Fayence",
+      "department": "83440",
+      "country": "France"
+    },
+    "location": ["43.6106586", "6.6890549"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/49683_pro_3.jpg",
+    "telephone": "04 94 76 08 44",
+    "website": "www.latabledyves.comp"
+  },
+  {
+    "name": "Auberge de La Mère Duval",
+    "address": {
+      "street": "Place Daniel-Boucour",
+      "city": "Val-de-Saâne",
+      "department": "76890",
+      "country": "France"
+    },
+    "location": ["49.7065463", "0.9644167"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/429367_pro_1.jpg",
+    "telephone": "02 35 32 30 13",
+    "website": "www.auberge-mere-duval.com"
+  },
+  {
+    "name": "La Closerie des Roses",
+    "address": {
+      "street": "455 La Haute-Meilleraie",
+      "city": "Varades",
+      "department": "44370",
+      "country": "France"
+    },
+    "location": ["47.3714870", "-1.0165880"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9358_ZMR_001.jpg",
+    "telephone": "02 40 98 33 30",
+    "website": "www.lacloseriedesroses.com"
+  },
+  {
+    "name": "Au Chapeau Rouge",
+    "address": {
+      "street": "49 place du Général-de-Gaulle",
+      "city": "Chinon",
+      "department": "37500",
+      "country": "France"
+    },
+    "location": ["47.1669407", "0.2401172"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2176_plat1_1.jpg",
+    "telephone": "02 47 98 08 08",
+    "website": "www.auchapeaurouge.fr"
+  },
+  {
+    "name": "Relais de l'Abbaye",
+    "address": {
+      "street": "415 route du Beaujolais",
+      "city": "Charlieu",
+      "department": "42190",
+      "country": "France"
+    },
+    "location": ["46.1552050", "4.1722280"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10659_pro_1.jpg",
+    "telephone": "04 77 60 00 88",
+    "website": ""
+  },
+  {
+    "name": "Au Bout de la Rue",
+    "address": {
+      "street": "60 rue de la Gare",
+      "city": "Flers",
+      "department": "61100",
+      "country": "France"
+    },
+    "location": ["48.7454800", "-0.5724600"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3204_pro_5.jpg",
+    "telephone": "02 33 65 31 53",
+    "website": "www.auboutdelarue.com"
+  },
+  {
+    "name": "Maison Gambert",
+    "address": {
+      "street": "2 rue de la Petite-Pirelle",
+      "city": "Tain-l'Hermitage",
+      "department": "26600",
+      "country": "France"
+    },
+    "location": ["45.0745399", "4.8610574"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/508654_pro_1.jpg",
+    "telephone": "04 75 09 19 85",
+    "website": "www.maisongambert.com"
+  },
+  {
+    "name": "Le Faitout",
+    "address": {
+      "street": "1 place du Pont",
+      "city": "Berlou",
+      "department": "34360",
+      "country": "France"
+    },
+    "location": ["43.4074400", "2.9724600"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/208710_pro_1.jpg",
+    "telephone": "04 67 24 16 99",
+    "website": "www.lefaitout.net"
+  },
+  {
+    "name": "Auberge de l'Ady",
+    "address": {
+      "street": "1 avenue du Pont-de-Malakoff",
+      "city": "Valady",
+      "department": "12330",
+      "country": "France"
+    },
+    "location": ["44.4596900", "2.4272200"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/176350_pro_67.jpg",
+    "telephone": "05 65 72 70 24",
+    "website": ""
+  },
+  {
+    "name": "Une Table à Deux",
+    "address": {
+      "street": "10 rue de la Pleau",
+      "city": "Toulouse",
+      "department": "31000",
+      "country": "France"
+    },
+    "location": ["43.5968455", "1.4469377"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1154294_pro_2.jpg",
+    "telephone": "05 61 25 03 51",
+    "website": "www.unetableadeux.fr"
+  },
+  {
+    "name": "Auberge de l'Île",
+    "address": {
+      "street": "3 place Bouchard",
+      "city": "L'Île-Bouchard",
+      "department": "37220",
+      "country": "France"
+    },
+    "location": ["47.1201320", "0.4253755"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3774_pro_3.jpg",
+    "telephone": "02 47 58 51 07",
+    "website": "www.aubergedelile.fr"
+  },
+  {
+    "name": "Le Buffet",
+    "address": {
+      "street": "22 rue de la Gare",
+      "city": "Isbergues",
+      "department": "62330",
+      "country": "France"
+    },
+    "location": ["50.6139300", "2.4624600"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/72_pro_6.jpg",
+    "telephone": "03 21 25 82 40",
+    "website": ""
+  },
+  {
+    "name": "Comptoir des Voyageurs",
+    "address": {
+      "street": "Place de l'Église",
+      "city": "Locronan",
+      "department": "29180",
+      "country": "France"
+    },
+    "location": ["48.0982151", "-4.2083201"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/476295_pro_4.jpg",
+    "telephone": "02 98 81 70 74",
+    "website": "www.comptoir-des-voyageurs.fr"
+  },
+  {
+    "name": "Les Reflets",
+    "address": {
+      "street": "227 rue Roger-Salengro",
+      "city": "La Roche-sur-Yon",
+      "department": "85000",
+      "country": "France"
+    },
+    "location": ["46.6651275", "-1.4495250"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1154692_pro_2.jpg",
+    "telephone": "0983258371,",
+    "website": ""
+  },
+  {
+    "name": "La Table d'Auzeville",
+    "address": {
+      "street": "35 chemin de l'Église",
+      "city": "Auzeville-Tolosane",
+      "department": "31320",
+      "country": "France"
+    },
+    "location": ["43.5285427", "1.4807838"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/295476_pro_1.jpg",
+    "telephone": "05 61 13 42 30",
+    "website": "www.la-table-dauzeville.fr"
+  },
+  {
+    "name": "Le Bourbon",
+    "address": {
+      "street": "5 place de la Victoire",
+      "city": "Yssingeaux",
+      "department": "43200",
+      "country": "France"
+    },
+    "location": ["45.1439578", "4.1242798"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9678_pro_1.jpg",
+    "telephone": "04 71 59 06 54",
+    "website": ""
+  },
+  {
+    "name": "Le Jardin des Brouches",
+    "address": {
+      "street": "1 boulevard de l'Hypéron",
+      "city": "Bagnères-de-Bigorre",
+      "department": "65200",
+      "country": "France"
+    },
+    "location": ["43.0638687", "0.1462046"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/292499_pro_1.jpg",
+    "telephone": "05 62 91 07 95",
+    "website": "www.lejardindesbrouches.fr"
+  },
+  {
+    "name": "Auberge de Ti-Coz",
+    "address": {
+      "street": "4 Hent-Koz",
+      "city": "Quimper",
+      "department": "29000",
+      "country": "France"
+    },
+    "location": ["48.0423858", "-4.0725792"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7231_pro_13.jpg",
+    "telephone": "02 98 94 50 02",
+    "website": "www.restaurantticoz.com"
+  },
+  {
+    "name": "Voyages des sens",
+    "address": {
+      "street": "33 rue Principale",
+      "city": "Treffort",
+      "department": "01370",
+      "country": "France"
+    },
+    "location": ["46.2981830", "5.3879540"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/504521_001.jpg",
+    "telephone": "04 74 51 39 94",
+    "website": "www.voyagesdessens.com"
+  },
+  {
+    "name": "Ô Saveurs",
+    "address": {
+      "street": "10 rue Jules-Ferry",
+      "city": "Saint-Brieuc",
+      "department": "22000",
+      "country": "France"
+    },
+    "location": ["48.5058435", "-2.7663882"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/186112_003.jpg",
+    "telephone": "02 96 94 05 34",
+    "website": "www.osaveurs-restaurant.com"
+  },
+  {
+    "name": "Le François II",
+    "address": {
+      "street": "5 place Aristide-Briand",
+      "city": "Couëron",
+      "department": "44220",
+      "country": "France"
+    },
+    "location": ["47.2108500", "-1.7278000"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/31982_pro_16.jpg",
+    "telephone": "02 40 38 32 32",
+    "website": "www.francois2.com"
+  },
+  {
+    "name": "Ttotta",
+    "address": {
+      "street": "Espace Ibarrondoan",
+      "city": "Saint-Pée-sur-Nivelle",
+      "department": "64310",
+      "country": "France"
+    },
+    "location": ["43.3560500", "-1.5633099"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371122_pro_3.jpg",
+    "telephone": "05 59 47 03 55",
+    "website": "www.ttotta.fr"
+  },
+  {
+    "name": "La Boria",
+    "address": {
+      "street": "3 cours du Palais",
+      "city": "Privas",
+      "department": "07000",
+      "country": "France"
+    },
+    "location": ["44.7346499", "4.5992499"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/515592_pro_3.jpg",
+    "telephone": "04 75 64 48 48",
+    "website": ""
+  },
+  {
+    "name": "Balsamique",
+    "address": {
+      "street": "13 place du Général-de-Gaulle",
+      "city": "Wambrechies",
+      "department": "59118",
+      "country": "France"
+    },
+    "location": ["50.6872452", "3.0527574"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/422159_pro_1.jpg",
+    "telephone": "03 20 93 68 55",
+    "website": "www.balsamique-restaurant.com"
+  },
+  {
+    "name": "Au Côte d'Argent",
+    "address": {
+      "street": "1 digue Gaston-Berthe",
+      "city": "Calais",
+      "department": "62100",
+      "country": "France"
+    },
+    "location": ["50.9665200", "1.8427200"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1555_plat1_1.jpg",
+    "telephone": "03 21 34 68 07",
+    "website": "www.cotedargent.com"
+  },
+  {
+    "name": "Le Coq d'Or",
+    "address": {
+      "street": "7 place du Champ-de-Foire",
+      "city": "Chénérailles",
+      "department": "23130",
+      "country": "France"
+    },
+    "location": ["46.1116433", "2.1771463"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/pic_poilist_default_7.jpg",
+    "telephone": "05 55 62 30 83",
+    "website": "www.restaurant-coqdor-23.com"
+  },
+  {
+    "name": "Vegan Gorilla",
+    "address": {
+      "street": "7 rue du Lycée",
+      "city": "Nice",
+      "department": "06000",
+      "country": "France"
+    },
+    "location": ["43.6995890", "7.2742140"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/506959_pro_005.jpg",
+    "telephone": "04 93 81 32 98",
+    "website": "www.restaurant-vegan.fr"
+  },
+  {
+    "name": "La Table de Léo",
+    "address": {
+      "street": "Le Bourg",
+      "city": "Saint-Avit-Sénieur",
+      "department": "24440",
+      "country": "France"
+    },
+    "location": ["44.7746774", "0.8159677"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/440607_pro_1.jpg",
+    "telephone": "05 53 57 89 15,",
+    "website": ""
+  },
+  {
+    "name": "Chez Michel",
+    "address": {
+      "street": "10 rue de Belzunce",
+      "city": "Paris",
+      "department": "75010",
+      "country": "France"
+    },
+    "location": ["48.8795129", "2.3521222"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/122764_001.jpg",
+    "telephone": "01 44 53 06 20",
+    "website": "www.restaurantchezmichel.fr"
+  },
+  {
+    "name": "La Charrette Bleue",
+    "address": {
+      "street": "5 chemin Barjavel",
+      "city": "Condorcet",
+      "department": "26110",
+      "country": "France"
+    },
+    "location": ["44.3878400", "5.1960910"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5552_pro_1.jpg",
+    "telephone": "04 75 27 72 33",
+    "website": "www.lacharrettebleue.net"
+  },
+  {
+    "name": "L'Oustalet Maïanen",
+    "address": {
+      "street": "16 avenue Lamartine",
+      "city": "Maillane",
+      "department": "13910",
+      "country": "France"
+    },
+    "location": ["43.8311800", "4.7823730"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8223_pro_5.jpg",
+    "telephone": "04 90 95 74 60",
+    "website": "www.restaurant-saint-remy-de-provence.fr"
+  },
+  {
+    "name": "Restaurant de la Gare",
+    "address": {
+      "street": "4 rue des Ormelets",
+      "city": "Ploubalay",
+      "department": "22650",
+      "country": "France"
+    },
+    "location": ["48.5802845", "-2.1445203"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6994_001.jpg",
+    "telephone": "02 96 27 25 16",
+    "website": "www.restaurant-la-gare-ploubalay.com"
+  },
+  {
+    "name": "Saperlipopette !",
+    "address": {
+      "street": "9 place du Théâtre",
+      "city": "Puteaux",
+      "department": "92800",
+      "country": "France"
+    },
+    "location": ["48.8803734", "2.2397098"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/453299_plat1_1.jpg",
+    "telephone": "01 41 37 00 00",
+    "website": "www.saperlipopette1.fr"
+  },
+  {
+    "name": "Aux Trois Pastoureaux",
+    "address": {
+      "street": "31 rue André-Gillet",
+      "city": "Châteaudun",
+      "department": "28200",
+      "country": "France"
+    },
+    "location": ["48.0680368", "1.3299006"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2047_pro_2.jpg",
+    "telephone": "02 37 45 74 40",
+    "website": "www.aux-trois-pastoureaux.fr"
+  },
+  {
+    "name": "La Ruche",
+    "address": {
+      "street": "13 quai du Docteur-Jules-Bouvat",
+      "city": "Saint-Péray",
+      "department": "07130",
+      "country": "France"
+    },
+    "location": ["44.9436083", "4.8413832"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1183528_pro_2.jpg",
+    "telephone": "09 82 40 44 38",
+    "website": "www.laruche-saintperay.com"
+  },
+  {
+    "name": "L'Univers",
+    "address": {
+      "street": "Place de la République",
+      "city": "Villefranche-de-Rouergue",
+      "department": "12200",
+      "country": "France"
+    },
+    "location": ["44.3488742", "2.0369320"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/434973_pro_2.jpg",
+    "telephone": "05 65 45 15 63",
+    "website": "www.lunivers-villefranche.com"
+  },
+  {
+    "name": "Auberge des Deux Magots",
+    "address": {
+      "street": "1 place du Bouffay",
+      "city": "La Roche-Bernard",
+      "department": "56130",
+      "country": "France"
+    },
+    "location": ["47.5185240", "-2.3025745"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/465592_plat1_1.jpg",
+    "telephone": "02 99 90 60 75",
+    "website": "www.aubergedesdeuxmagots.fr"
+  },
+  {
+    "name": "L'Alicanta",
+    "address": {
+      "street": "route de Meyrueis",
+      "city": "Le Rozier",
+      "department": "48150",
+      "country": "France"
+    },
+    "location": ["44.1904313", "3.2093038"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/pic_poilist_default_11.jpg",
+    "telephone": "05 65 62 60 25",
+    "website": "www.hotel-doussiere.com"
+  },
+  {
+    "name": "Daniel et Denise Créqui",
+    "address": {
+      "street": "156 rue de Créqui",
+      "city": "Lyon",
+      "department": "69003",
+      "country": "France"
+    },
+    "location": ["45.7623300", "4.8472900"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/4455_ZMR_001.jpg",
+    "telephone": "04 78 60 66 53",
+    "website": "www.danieletdenise.fr"
+  },
+  {
+    "name": "Le Réciproque",
+    "address": {
+      "street": "14 rue Ferdinand-Flocon",
+      "city": "Paris",
+      "department": "75018",
+      "country": "France"
+    },
+    "location": ["48.8917960", "2.3460972"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/502941_pro_3.jpg",
+    "telephone": "09 86 37 80 77",
+    "website": "www.lereciproque.com"
+  },
+  {
+    "name": "Le Lancelot",
+    "address": {
+      "street": "12 rue des Déportés",
+      "city": "Chilleurs-aux-Bois",
+      "department": "45170",
+      "country": "France"
+    },
+    "location": ["48.0713200", "2.1345500"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2173_pro_6.jpg",
+    "telephone": "02 38 32 91 15",
+    "website": "www.restaurantlelancelot.com"
+  },
+  {
+    "name": "Saveurs de l'Abbaye",
+    "address": {
+      "street": "1 place St-Pallais",
+      "city": "Saintes",
+      "department": "17100",
+      "country": "France"
+    },
+    "location": ["45.7454483", "-0.6247263"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/66579_001.jpg",
+    "telephone": "05 46 94 17 91",
+    "website": "www.logishotels.com"
+  },
+  {
+    "name": "Coteaux et Fourchettes",
+    "address": {
+      "street": "Route de Violès",
+      "city": "Cairanne",
+      "department": "84290",
+      "country": "France"
+    },
+    "location": ["44.2032400", "4.9457600"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/305304_pro_1.jpg",
+    "telephone": "04 90 66 35 99",
+    "website": "www.coteauxetfourchettes.com"
+  },
+  {
+    "name": "Auberge des Chenêts",
+    "address": {
+      "street": "10 route Nationale 6",
+      "city": "Valloux",
+      "department": "89200",
+      "country": "France"
+    },
+    "location": ["47.5119044", "3.8414123"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/616_pro_3.jpg",
+    "telephone": "03 86 34 23 34",
+    "website": ""
+  },
+  {
+    "name": "À la Route d'Argent",
+    "address": {
+      "street": "1 route de Gabriac",
+      "city": "Bozouls",
+      "department": "12340",
+      "country": "France"
+    },
+    "location": ["44.4685600", "2.7324200"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10399_plat3_1.jpg",
+    "telephone": "05 65 44 92 27",
+    "website": ""
+  },
+  {
+    "name": "Le Grapiot",
+    "address": {
+      "street": "3 rue Bagier",
+      "city": "Pupillin",
+      "department": "39600",
+      "country": "France"
+    },
+    "location": ["46.8835700", "5.7602600"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/30248_ZMR_001.jpg",
+    "telephone": "03 84 37 49 44",
+    "website": "www.legrapiot.com"
+  },
+  {
+    "name": "La Rochette",
+    "address": {
+      "street": "500 lieu-dit La Rochette",
+      "city": "Labaroche",
+      "department": "68910",
+      "country": "France"
+    },
+    "location": ["48.1007117", "7.1940112"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3959_pro_1.jpg",
+    "telephone": "03 89 49 80 40",
+    "website": "www.larochette-hotel.fr"
+  },
+  {
+    "name": "Chez Guy",
+    "address": {
+      "street": "3 place de la Mairie",
+      "city": "Gevrey-Chambertin",
+      "department": "21220",
+      "country": "France"
+    },
+    "location": ["47.2260446", "4.9692740"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3395_plat1_1.jpg",
+    "telephone": "03 80 58 51 51",
+    "website": "www.chez-guy.fr"
+  },
+  {
+    "name": "L'Envers du Décor",
+    "address": {
+      "street": "23  rue de la Bienfaisance",
+      "city": "Les Herbiers",
+      "department": "85500",
+      "country": "France"
+    },
+    "location": ["46.8718586", "-1.0131786"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/516774_004.jpg",
+    "telephone": "09 86 19 30 24",
+    "website": ""
+  },
+  {
+    "name": "La Table de Pablo",
+    "address": {
+      "street": "Hameau Les Petits-Cléments",
+      "city": "Villars",
+      "department": "84400",
+      "country": "France"
+    },
+    "location": ["43.9295506", "5.4246554"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/171375_pro_2.jpg",
+    "telephone": "04 90 75 45 18",
+    "website": "www.latabledepablo.com"
+  },
+  {
+    "name": "La Griotte",
+    "address": {
+      "street": "3 rue des Cerisiers",
+      "city": "Saules",
+      "department": "25580",
+      "country": "France"
+    },
+    "location": ["47.1238170", "6.2002160"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/197827_pro_10.jpg",
+    "telephone": "03 81 57 17 71",
+    "website": "www.lagriotte.fr"
+  },
+  {
+    "name": "Pomze",
+    "address": {
+      "street": "109 boulevard Haussmann",
+      "city": "Paris",
+      "department": "75008",
+      "country": "France"
+    },
+    "location": ["48.8751739", "2.3165102"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371410_plat1_1.jpg",
+    "telephone": "01 42 65 80 87",
+    "website": "www.pomze.com"
+  },
+  {
+    "name": "La Chaumine",
+    "address": {
+      "street": "79 rue de Port-Haliguen",
+      "city": "Quiberon",
+      "department": "56170",
+      "country": "France"
+    },
+    "location": ["47.4840381", "-3.1119454"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7215_ZMR_001.jpg",
+    "telephone": "02 97 50 17 67",
+    "website": "www.restaurant-lachaumine.com"
+  },
+  {
+    "name": "Le Canut et les Gones",
+    "address": {
+      "street": "29 rue Belfort",
+      "city": "Lyon",
+      "department": "69004",
+      "country": "France"
+    },
+    "location": ["45.7786827", "4.8346540"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/460386_plat1_1.jpg",
+    "telephone": "04 78 29 17 23",
+    "website": "www.lecanutetlesgones.com"
+  },
+  {
+    "name": "Lou Pinatou",
+    "address": {
+      "street": "Le Bourg",
+      "city": "Solignac-sous-Roche",
+      "department": "43130",
+      "country": "France"
+    },
+    "location": ["45.2511000", "3.9982197"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/pic_poilist_default_3.jpg",
+    "telephone": "04 71 65 21 54",
+    "website": "www.auberge-loupinatou.fr"
+  },
+  {
+    "name": "Histoire Ancienne",
+    "address": {
+      "street": "20 rue Royale",
+      "city": "Calais",
+      "department": "62100",
+      "country": "France"
+    },
+    "location": ["50.9569000", "1.8495400"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1558_pro_8.jpg",
+    "telephone": "03 21 34 11 20",
+    "website": "www.histoire-ancienne.com"
+  },
+  {
+    "name": "Au Colombier",
+    "address": {
+      "street": "126 allée Colombier",
+      "city": "Anse",
+      "department": "69480",
+      "country": "France"
+    },
+    "location": ["45.9454350", "4.7258210"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/172869_pro_2.jpg",
+    "telephone": "04 74 67 04 68",
+    "website": "www.aucolombier.com"
+  },
+  {
+    "name": "L'Arum",
+    "address": {
+      "street": "21 avenue Joseph-Clotis",
+      "city": "Hyères",
+      "department": "83400",
+      "country": "France"
+    },
+    "location": ["43.1202188", "6.1304632"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1000375_pro_12.jpg",
+    "telephone": "06 89 91 92 08",
+    "website": "https://fr-fr.facebook.com/LArum-restaurant-2126714757548324/"
+  },
+  {
+    "name": "Manoir de la Pommeraie",
+    "address": {
+      "street": "L'Auvère",
+      "city": "Vire",
+      "department": "14500",
+      "country": "France"
+    },
+    "location": ["48.8297661", "-0.8608496"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9609_pro_2.jpg",
+    "telephone": "02 31 68 07 71",
+    "website": "www.restaurant-pommeraie-vire.com"
+  },
+  {
+    "name": "Les Épices Curiens",
+    "address": {
+      "street": "3b place de la Gare",
+      "city": "Écouviez",
+      "department": "55600",
+      "country": "France"
+    },
+    "location": ["49.5242542", "5.4564853"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/254219_pro_12.jpg",
+    "telephone": "03 29 86 84 58",
+    "website": "www.lesepicescuriens.com"
+  },
+  {
+    "name": "En Cuisine",
+    "address": {
+      "street": "39 avenue Edouard-Herriot",
+      "city": "Brive-la-Gaillarde",
+      "department": "19100",
+      "country": "France"
+    },
+    "location": ["45.1537807", "1.5329156"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/343929_ZMR_001.jpg",
+    "telephone": "05 55 74 97 53",
+    "website": "www.encuisine.net"
+  },
+  {
+    "name": "M Restaurant",
+    "address": {
+      "street": "47 avenue Foch",
+      "city": "Lyon",
+      "department": "69006",
+      "country": "France"
+    },
+    "location": ["45.7706400", "4.8434700"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/235634_ZMR_001.jpg",
+    "telephone": "04 78 89 55 19",
+    "website": "www.mrestaurant.fr"
+  },
+  {
+    "name": "L'Auberge des Montagnes",
+    "address": {
+      "street": "Le Bourg",
+      "city": "Pailherols",
+      "department": "15800",
+      "country": "France"
+    },
+    "location": ["44.9504100", "2.6839860"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12203_pro_1.jpg",
+    "telephone": "04 71 47 57 01",
+    "website": "www.auberge-des-montagnes.com"
+  },
+  {
+    "name": "Le Rochetoirin",
+    "address": {
+      "street": "Route du Village",
+      "city": "Rochetoirin",
+      "department": "38110",
+      "country": "France"
+    },
+    "location": ["45.5892000", "5.4122300"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/197528_pro_2.jpg",
+    "telephone": "04 74 97 60 30",
+    "website": "www.lerochetoirin.fr"
+  },
+  {
+    "name": "Hostellerie du Prieuré",
+    "address": {
+      "street": "163 rue du Général-de-Gaulle",
+      "city": "Saint-Quirin",
+      "department": "57560",
+      "country": "France"
+    },
+    "location": ["48.6099687", "7.0645394"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8188_pro_4.jpg",
+    "telephone": "03 87 08 66 52",
+    "website": "www.saint-quirin.com"
+  },
+  {
+    "name": "La Maison Carrier",
+    "address": {
+      "street": "44 route du Bouchet",
+      "city": "Chamonix-Mont-Blanc",
+      "department": "74400",
+      "country": "France"
+    },
+    "location": ["45.9251353", "6.8736882"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1944_pro_1.jpg",
+    "telephone": "04 50 53 00 03",
+    "website": "www.hameaualbert.fr"
+  },
+  {
+    "name": "Perle des Vosges",
+    "address": {
+      "street": "22 route Gaschney",
+      "city": "Muhlbach-sur-Munster",
+      "department": "68380",
+      "country": "France"
+    },
+    "location": ["48.0276111", "7.0794080"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12021_pro_1.jpg",
+    "telephone": "03 89 77 61 34",
+    "website": ""
+  },
+  {
+    "name": "La Table d'Aimé",
+    "address": {
+      "street": "4 Rue Francisco Ferrer",
+      "city": "Rivesaltes",
+      "department": "66600",
+      "country": "France"
+    },
+    "location": ["42.7700821", "2.8776854"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/261681_ZMR_001.jpg",
+    "telephone": "04 68 34 35 77",
+    "website": "www.cazes-rivesaltes.com"
+  },
+  {
+    "name": "L'Arche de Meslay",
+    "address": {
+      "street": "14 rue des Ailes",
+      "city": "Parçay-Meslay",
+      "department": "37210",
+      "country": "France"
+    },
+    "location": ["47.4381500", "0.7137400"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9064_pro_1.jpg",
+    "telephone": "02 47 29 00 07",
+    "website": "www.larchedemeslay.fr"
+  },
+  {
+    "name": "La Balade des Saveurs",
+    "address": {
+      "street": "3 quai Jean-Jaurès",
+      "city": "L'Isle-sur-la-Sorgue",
+      "department": "84800",
+      "country": "France"
+    },
+    "location": ["43.9197400", "5.0549746"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/419771_pro_4.jpg",
+    "telephone": "04 90 95 27 85",
+    "website": "www.balade-des-saveurs.com"
+  },
+  {
+    "name": "Ar Maen Hir",
+    "address": {
+      "street": "15 bis rue du Prieuré",
+      "city": "Locronan",
+      "department": "29180",
+      "country": "France"
+    },
+    "location": ["48.0977773", "-4.2114968"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1024395_pro_3.jpg",
+    "telephone": "02 56 10 18 37",
+    "website": ""
+  },
+  {
+    "name": "Restaurant des Voisins",
+    "address": {
+      "street": "12 rue des Voisins",
+      "city": "Salies-de-Béarn",
+      "department": "64270",
+      "country": "France"
+    },
+    "location": ["43.4713008", "-0.9259031"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/default1.jpg",
+    "telephone": "05 59 38 01 79",
+    "website": "www.restaurant-des-voisins.fr"
+  },
+  {
+    "name": "Le Boudes La Vigne",
+    "address": {
+      "street": "place de la Mairie",
+      "city": "Boudes",
+      "department": "63340",
+      "country": "France"
+    },
+    "location": ["45.4587360", "3.1848990"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1263_pro_1.jpg",
+    "telephone": "04 73 96 55 66",
+    "website": "www.leboudeslavigne.franceserv.com"
+  },
+  {
+    "name": "L'Arbre Vert",
+    "address": {
+      "street": "96 rue Principale",
+      "city": "Berrwiller",
+      "department": "68500",
+      "country": "France"
+    },
+    "location": ["47.8469616", "7.2199651"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1028_pro_3.jpg",
+    "telephone": "03 89 76 73 19",
+    "website": ""
+  },
+  {
+    "name": "Le Vallon de Chérisy",
+    "address": {
+      "street": "12 route de Paris",
+      "city": "Cherisy",
+      "department": "28500",
+      "country": "France"
+    },
+    "location": ["48.7467740", "1.4162886"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2973_pro_25.jpg",
+    "telephone": "",
+    "website": ""
+  },
+  {
+    "name": "Biscotte",
+    "address": {
+      "street": "22 rue Desnouettes",
+      "city": "Paris",
+      "department": "75015",
+      "country": "France"
+    },
+    "location": ["48.8361274", "2.2913415"],
+    "image": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1000272_pro_1.jpg",
+    "telephone": "01 45 33 22 22",
+    "website": "https://restaurant-biscotte.com/"
+  }
+]

@@ -5,8 +5,8 @@ const bib = require("./bib");
 const DIR = bib.DIR;
 
 const main = async () => {
-  //await michelin.toFile(DIR);
-  //await maitre.toFile(DIR);
+  await michelin.toFile(DIR);
+  await maitre.toFile(DIR);
   await bib.toFile();
   return "main: finish";
 };
